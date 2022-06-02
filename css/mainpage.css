@@ -172,6 +172,27 @@ body {
     text-align: center;
 }
 
+.box3quote, .box3reference{
+    font-size: 28px;
+
+}
+.box3quote{
+    
+    font-style:italic;
+    font-weight:100;
+    color: #33445b;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.box3reference{
+    display: block;
+    padding-top: 40px;
+    margin-left: 40%;
+    color: #1F2937;
+}
+
 /**/
 
 .box4 {
