@@ -17,35 +17,59 @@ body {
 
 
 
+
+
+
+
 .box1container{
     
     position: relative;
     margin-left: 20%;
     margin-right:20%;
+    padding-bottom:10%;
 }
-
-
 
 .logo {
     max-width: 10%;
     display:inline;
 }
 
+.box1header{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
 .box1header ul{
-    display:inline;
-    position: relative;
-    left: 0;
-    right: 0;
+
+    display: inline-flex;
+    justify-content: right;
 }
 
 .box1header li{
     display:inline;
+    color: #E5E7EB;
 }
+
+
+.box1content{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+.rightbox img{
+    max-width: 10%;
+}
+
+
+
+
+
+
 
 
 .box3 {
     background-color: #E5E7EB;
-    padding
 }
 
 .box5 {
