@@ -57,6 +57,15 @@ body {
     flex-direction: row;
 }
 
+.leftbox {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 50%;
+}
+.rightbox{
+    width: 50%;
+}
 .rightbox img{
     max-width: 10%;
 }
