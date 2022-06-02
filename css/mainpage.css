@@ -1,10 +1,11 @@
 body {
     background-color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .box1, .box2, .box3, .box4, .box5{
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:12%;
+    margin-right:12%;
 }
 
 .box1, .box5{
@@ -17,16 +18,16 @@ body {
 
 
 
-
+/**/
 
 
 
 .box1container{
     
     position: relative;
-    margin-left: 20%;
-    margin-right:20%;
-    padding-bottom:10%;
+    margin-left: 15%;
+    margin-right:15%;
+    padding-bottom:5%;
 }
 
 .logo {
@@ -36,20 +37,32 @@ body {
 
 .box1header{
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .box1header ul{
-
+    position: absolute;
     display: inline-flex;
     justify-content: right;
+    right:0;
 }
 
-.box1header li{
+.box1header ul li{
+    text-decoration: none;
     display:inline;
+    color: #E5E7EB;
+    padding-left: 30px;
+}
+
+.box1header a{
+    text-decoration: none;
     color: #E5E7EB;
 }
 
+.box1header a:hover{
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
 .box1content{
     display: flex;
@@ -58,28 +71,78 @@ body {
 }
 
 .leftbox {
-    color:#F9FAF8;
+    max-width: 50%;
+}
+
+.leftboxh1 {
+    display: block;
     font-size: 48px;
     font-weight: bolder;
-    width: 50%;
+    color:#F9FAF8;
+    padding-bottom:20px;
+
 }
-.rightbox{
-    width: 50%;
+
+.leftboxh2{
+    display: block;
+    font-size: 18px;
+    color:#E5E7EB;
 }
+
+.leftboxbutton{
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-width: 0;
+    margin-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .rightbox img{
-    max-width: 10%;
+    display: block;
+    max-width: 50%;
+    margin-left: 50%;
+    margin-right: auto;
 }
 
 
 
 
+/**/
 
 
+
+
+
+/**/
 
 
 .box3 {
     background-color: #E5E7EB;
 }
+
+/**/
+
+.box4 {
+    padding:5%;
+}
+.bluebar{
+    background-color: #3882F6;
+    padding: 5%;
+}
+.headline{
+    color:#F9FAF8;
+}
+.moreinfo{
+    color:#E5E7EB
+}
+
+/**/
+
 
 .box5 {
     text-align: center;
