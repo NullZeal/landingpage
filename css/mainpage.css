@@ -197,16 +197,43 @@ body {
 
 .box4 {
     padding:5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .bluebar{
     background-color: #3882F6;
-    padding: 5%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
 }
+
+.headline, .moreinfo{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .headline{
     color:#F9FAF8;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+
 }
 .moreinfo{
     color:#E5E7EB
+} 
+
+.signupbutton{
+    display: inline-block;
+    margin-left: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    margin-left: 20px;
+    padding:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 
 /**/
